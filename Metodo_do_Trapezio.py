@@ -7,7 +7,7 @@ def trapezio(n, base, x1):
 
 print("Utilize o método do trapézio para achar a área aproximada da função 2x + x² no intervalo escolhido")
 
-x1 = int(input("Qual o primeiro valor do intervalo? "))
+x1 = int(input("\nQual o primeiro valor do intervalo? "))
 x2 = int(input("E o último? "))
 n = int(input("Quantos trapézios você quer utilizar? "))
 
@@ -15,4 +15,4 @@ base = (x2 - x1) / n
 
 area = trapezio(n, base, x1)
 
-print(f"A área aproximada da função no intervalo de {x1} até {x2} é {area:.2f}")
+print(f"\nA área aproximada da função no intervalo de {x1} até {x2} é {area:.2f}\n")

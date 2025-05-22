@@ -24,6 +24,8 @@ while True:
 
     if b - a <= erro:
         break    
-
-print(f"\n {a} | {b} | {f_a} | {f_b} | {media} | {f_media} \n")
-print(f"A raiz aproximada fica no ponto {media:.3f}\n")
+try:
+    print(f"\n {a} | {b} | {f_a} | {f_b} | {media} | {f_media} \n")
+    print(f"A raiz aproximada fica no ponto {media:.3f}\n")
+except NameError:
+    print()
